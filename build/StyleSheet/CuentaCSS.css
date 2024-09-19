@@ -1,0 +1,19 @@
+#formulario{
+    background-color: #7c587f;
+    padding: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+.cont{
+    border-radius: 15px;
+}
+textarea{
+    resize: none;
+}
+.hueco1{
+    height: 250px;
+    width: 100%;
+    background-color: transparent;
+}

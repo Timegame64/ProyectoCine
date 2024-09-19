@@ -1,0 +1,21 @@
+.btnEditor{
+    background-color: #311b34;
+    width: 90%;
+    /* height: 50px; */
+    border-color: black;
+    border-radius: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5%;
+}
+.e1{
+    margin: 25px;
+    width: 500px;
+    height: 80px;
+    font-size: 30px;
+}
+.letraE{
+    font-size: 100px;
+}

@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    background-color: transparent;
+}
+.barra{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    background-color: #4d4567;
+    height: 80px;
+    width: 100%;
+    padding-bottom: 30px;
+    z-index: 10;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #7c587f;
+    padding-bottom: 30px;
+
+}
+
+.container{
+    min-height: 100vh;
+    width: 100%;
+    height: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #7c587f; 
+    padding: 9%;
+}
+
+
+
+.estrenos{
+    background-color: #281b23;
+    width: 200px;
+    height: 700px;
+}
+.caja1{
+    background-color: #be12c1;
+    width: 200px;
+    height: 700px;
+}
+.estre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+.slide-container{
+    
+    width: 100%;
+    height: 100%;
+    padding: 100px 0;
+}
+.slide-content{
+    margin: 0 40px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card{
+    border-radius: 20px;
+
+    background-color: #383f3e;
+}
+
+.card-content{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 14px;
+    font-size: 25px;
+    
+    
+}
+
+
+.image-content{
+    position: relative;
+    row-gap: 5px;
+    padding: 5px 0;
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.overlay{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #be12c1;
+    border-radius: 25px 25px 0 0;
+}
+
+.overlay::after{
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #000000;
+}
+.overlay::after{
+    border-radius: 30px 0 0;
+    background-color: transparent;
+}
+
+
+
+.card-image{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.card-image .card-img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+    border: 4px solid #151519;
+}
+
+
+.name{
+    font-size: 18px;
+    font-weight: 500;
+    color: #333;
+}
+.description{
+    font-size: 13px;
+    color: white;
+    text-align: center;
+}
+.button{
+    border: none;
+    font-size: 16px;
+    color: #be12c1;
+    padding: 8px 16px;
+    background-color: #000000;
+    border-radius: 6px;
+    margin: 14px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.name{
+    font-size: 22px;
+    color: yellow;
+    
+    
+}
+
+.card swiper-slide{
+    display: flex;
+    justify-content: space-around;
+}
+.button:hover{
+    background: #303237;/*boton alpasar raton*/
+}
+.slide-container .swiper-navBtn{
+    color: #191b21;
+    transition: color 0.3s ease;
+}
+.slide-container .swiper-navBtn:hover{
+    color: #9498a4;
+}
+.slide-container .swiper-navBtn::before,
+.slide-container .swiper-navBtn::after{
+    font-size: 40px;
+}
+.swiper-button-next{
+    right: 0;
+}
+.swiper-button-prev{
+    left: 0;
+}
+.slide-container .swiper-pagination.bullet{
+    background-color: #1a1c21;
+    opacity: 1;
+}
+.slide-container .swiper-pagination .bullet-active{
+    background-color:#25272b;
+}
+@media screen and (max-width: 768px) {
+    .slide-content{
+        margin: 0 10px;
+    }
+    .swiper-navBtn{
+        display: none;
+    }
+}

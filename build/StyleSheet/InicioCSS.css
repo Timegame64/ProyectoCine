@@ -1,0 +1,159 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding-top: 25px;
+}
+.body-inicio{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 40%, rgba(6,80,168,1) 68%, rgba(108,4,180,1) 100%);
+    overflow-x: hidden;
+}
+/*
+.seccion1{
+    background-color: #c815d8;
+    height: 500px;
+    width: 100%;
+    margin-top: 10px;
+}
+*/
+.seccion2{
+    background-color: transparent;
+    height: auto;
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap:nowrap;
+}
+.seccion3{
+    background-image: url(../img/descarga\(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 700px;
+    width: 100%;
+    margin-top: 10px;
+}
+.seccion4{
+    background-image: url(../img/anuncio2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 700px;
+    width: 100%;
+}
+.seccion5{
+    background-image: url(../img/anuncio2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 700px;
+    width: 100%;
+}
+#imgCarr{
+    height: 800px;
+    width: 500px;
+}
+.text1{
+    height: 90%;
+    width: calc(66% - 2%);
+    background-color: transparent;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 45px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50px;
+}
+.text2{
+    height: 90%;
+    width: 66%;
+    background-color: transparent;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 45px;
+    border-top-left-radius: 50px;
+}
+.img1{
+    height: auto;
+    width: calc(33% - 2%);
+    background-image: url(../img/salaIMAX.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top-left-radius: 50px;
+}
+.img2{
+    height: auto;
+    width: calc(33% - 2%);
+    background-image: url(../img/butacasVIP.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50px;
+}
+.img3{
+    height: auto;
+    width: calc(33% - 2%);
+    background-image: url(../img/bar.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-left: 1%;
+    margin-bottom: 1%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-top-left-radius: 50px;
+}
+.img4{
+    height: auto;
+    width: calc(33% - 2%);
+    background-image: url(../img/eventos.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:right;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 5px;
+    box-sizing: border-box;
+    border-bottom-right-radius: 50px;
+}
+.textH2{
+    font-size: 50px;
+    text-align: center;
+    color: rgb(93, 119, 67);
+}
+.textH2dwn{
+    font-size: 70px;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.textH3{
+    font-size: 50px;
+}
+.textH4{
+    font-size: 25px;
+}
+#btn-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 1.5rem;
+    padding: 15px 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 11%;
+}
+.caja{
+    background-color: aqua;
+    width: 150px;
+    height: 400px;
+}
